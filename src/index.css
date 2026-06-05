@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* Base Stealth Aesthetic Variables can go here */
+@layer base {
+  body {
+    @apply bg-neutral-950 text-neutral-50 antialiased selection:bg-cyan-500/30;
+  }
+}
